@@ -1,0 +1,27 @@
+
+
+ body{
+    background-color: aquamarine;
+    text-align: center;
+
+
+}
+div { 
+    box-sizing: border-box;
+    width: 100%;
+    border: 100px solid black;
+    float: center;
+    align-content: center;
+    align-items: center;
+}
+   
+form {   
+    margin:  auto;
+    width: 600px;
+    height: 600p;
+}
+.box{
+    width: auto;
+    
+
+}

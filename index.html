@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+ <html>
+<body>
+    <!--for first the dislay empty form and then only we can fill that form so we 
+        need to take here this line for empty form-->
+    <link href="c.css" rel="stylesheet">
+    <div class="box">
+    <h1 style="text-align: center;">REGISTRATION FORM</h1>
+        <p>Name: <input type="text" 
+            size="30" name="Name" /></p>
+        <br />
+        <p>Address: <input type="text" 
+          size="30" name="Address" /></p>
+        <br />
+        <p>Email<input type="text" 
+          size="30" name="EMail" /></p>
+        <br />
+        <p>Password: <input type="text" 
+            size="30" name="Password" /></p>
+        <br />
+        <p>phone: <input type="text" 
+            size="30" name="phone" /></p>
+        <br />
+        <p>Please select your location:</p>
+        <input type="radio" id="delhi" name="location" value="Delhi">
+        <label for="html">Delhi</label><br>
+        <input type="radio" id="jaipur" name="location" value="Jaipur">
+        <label for="css">Jaipur</label><br>
+        <input type="radio" id="pune" name="location" value="Pune">
+        <label for="javascript">Pune</label><br>
+        <input type="radio" id="banglore" name="location" value="Banglore">
+        <label for="javascript">Banglore</label>
+        <p>
+            SELECT YOUR COURSE
+            <select type="text" value="" name="Subject">
+                <option>Python</option>
+                <option>Java</option>
+                <option>JavaScript </option>
+                <option>Node.js</option>
+            </select>
+        </p>
+        <p>Comments: <textarea cols="50" 
+          name="Comment"> </textarea></p>
+<!--here we took this to submit this button.-->
+
+         <button id="btn-submit">submit</button>   
+
+    </div>
+    <!-- here we connected to javascript code with Html part just because placing scripts at
+         the bottom of the <body>element improves the display speed,because script interpretation slows down the display.-->
+    <script src="i.js"></script>    
+</body>
+</html> 
